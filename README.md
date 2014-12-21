@@ -6,17 +6,19 @@ The goal is to prepare tidy data that can be used for later analysis.
 ## how to run
 Source and run  on Rstudio
 
-source('./run_analysis.R')\\
-download.data()\\
-run.analysis()\\
+source('./run_analysis.R')
+
+download.data()
+
+run.analysis()
 
 Or run on terminal window
 
-run_analysis.R\\
+run_analysis.R
 
 
 #Result dataset
-tidydata.txt\\
+tidydata.txt
 
 This assignment uses data from
 [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip]
@@ -25,7 +27,7 @@ Notes Using function and library
 
 library(plyr)
 
-function factor and aggregate
+factor() and aggregate()
 
 # Steps
 1.  Loading the data
